@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/ejercicio_01.css" type="text/css" />
+    <title>Ejercicio 1</title>
+</head>
+
+<body>
+    <div class="caja">
+<form class="formulario">
+<br>
+    <p class="txt2">Datos del comprador</p>
+    <br>
+    <div class="nombre">
+        <label for="nombre">Nombre</label>
+        <input class="p1"
+        id="nombre" 
+        type="text" 
+        name="nombre" 
+        placeholder="Escribe tu nombre completo" 
+        required
+        />
+    </div>
+<br>
+    <div class="correo">
+        <label for="correo">Email</label>
+        <input class="p2"
+        id="correo"
+        name="correo"
+        type="mail"
+        placeholder="ejemplo@um.es"
+        required
+        />
+    </div>
+<br>
+    <div class="tel">
+        <label for="tel">Telefono
+        </label>
+        <input
+        id="tel"
+        name="tel"
+        type="number"
+        placeholder="Ej. +525555496587"
+        required
+        />
+    </div>
+<br>
+    <div class="pais">
+        <label for="pais">Pais</label>
+        <input class="p3"
+        id="pais" 
+        type="text" 
+        name="pais" 
+        placeholder=""
+        required
+        />
+<br><br>
+<p class="txt2">Datos de tarjeta de credito o debito</p>
+<br>
+<div class="tarjeta">
+    <label for="tarjeta">Numero</label>
+    <input
+    id="tarjeta"
+    name="tarjeta"
+    type="number"
+    placeholder="Ej. 5652-5263-6365-6365 "
+    min="1"
+    max="999999999999999999"
+    required
+    />
+</div>
+<br>
+
+<div class="nombre2">
+    <label for="nombre2">Nombre</label>
+    <input
+    id="nombre2" 
+    type="text" 
+    name="nombre2" 
+    placeholder="Nombre que figura en la tarjeta" 
+    required
+    />
+    <br><br>
+<p class="txt1">- - - - - - - - - - - - - - - - - - - - - - - - - - </p>
+<div class="pedido">
+    <button>Confirmar pedido</button>
+</div>
+</div>
+</form>
+</div>
+</body>
+</html>
