@@ -1,0 +1,44 @@
+body{
+    background-color:rgb(72, 214, 207);
+}
+
+h1{
+    text-align: center;
+}
+.txt1{
+color: red;
+}
+
+.txt2{
+    font-weight: bolder;
+}
+
+.txt3{
+    font-style: italic;
+}
+
+.txt4{
+    color: gold;
+}
+table{
+    width: 700px;
+    margin: 0 auto;
+}
+
+table, tr, th, td{
+    border: 1px solid black;
+    color: black;
+}
+
+.orange{
+    background-color: orangered;
+
+}
+
+.black{
+    background-color: black;
+}
+
+.verde{
+    background-color: rgb(102, 196, 8);
+}

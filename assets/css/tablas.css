@@ -1,0 +1,21 @@
+table, tr, th, td{
+    border: 1px solid black;
+    color: white;
+}
+
+table{
+    width: 300px;
+    border: dashed blueviolet;
+}
+
+th{
+    background-color: brown;
+}
+
+td{
+    background-color: blue;
+}
+
+i{
+color: chocolate;
+}
